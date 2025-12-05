@@ -17,3 +17,8 @@ desc = "Paste into the hovered directory or CWD"
 on = ["g", "i"]
 run = "plugin lazygit"
 desc = "run lazygit"
+
+[[mgr.prepend_keymap]]
+on = "`"
+run = "shell --block zsh"
+desc = "Run shell"
